@@ -1,0 +1,22 @@
+{
+  "name": "model-team",
+  "version": "0.1.0",
+  "description": "Task-based model routing and adversarial development with Codex, Claude and DeepSeek.",
+  "author": {
+    "name": "Patrick Sullivan"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Model Team",
+    "shortDescription": "Codex leads. Claude challenges. DeepSeek handles bulk work.",
+    "longDescription": "Use existing model CLIs for bounded bulk reading, pattern drafting, independent design challenges and code review. Local artifacts track model usage, source hashes and failures. Codex remains the repository writer.",
+    "developerName": "Patrick Sullivan",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use Model Team to build and independently review this change.",
+      "Ask Claude to challenge this implementation plan.",
+      "Delegate bulk reading to DeepSeek and verify the important claims."
+    ]
+  }
+}
